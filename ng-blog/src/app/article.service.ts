@@ -15,4 +15,9 @@ getArticles(): Observable<Article[]>{
   return of(articles);
 }
 
+getArticle(key:string): Observable<Article>{
+  const articles = ARTICLES.filter(a => a.key==key);
+  return of(articles[0]);
+}
+
 }
