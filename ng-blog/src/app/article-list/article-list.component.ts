@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ARTICLES } from '../mock-articles';
 import { Article } from '../article';
 import { ArticleService } from '../article.service';
 import { SharedService } from '../shared.service';
